@@ -3,7 +3,7 @@
 #  Dockerfile for Root the Box
 #  v0.1.1 - By Moloch, ElJeffe
 
-FROM python:3.6
+FROM python:3.11.0b1
 
 RUN mkdir /opt/rtb
 ADD . /opt/rtb
